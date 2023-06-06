@@ -1,0 +1,136 @@
+/*header*/
+.inline-block{
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+}
+.logo{
+    width:23%;
+    padding: 1%;
+}
+element{
+    width: 70%;
+    padding: 1%;
+}
+ul{
+    width: auto;
+    margin:0 auto;
+    display: inline-block;
+    
+}
+.logo{
+text-align: center;
+}
+li{
+    display: inline-block;
+    padding: 25px;
+    text-align: center;
+    width: auto;
+    color: #ffffff; 
+    font-family: "Quicksand", sans-serif;
+}
+header{
+    background-color: #000000;
+}
+/*body*/
+body{
+    background-color: #000000; 
+}
+h1{
+    color:#E06FDC;
+    font-family: "Sonsie One", Open, sans-serif;
+    font-size: 42pt;
+}
+h3{
+    color:#54D0EB;
+    font-family: "Sonsie One", Open, sans-serif;
+    font-size: 24pt;
+}
+p.mySkills{
+    color:#ffffff;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    font-size: 16pt;
+}
+p{
+    color:#ffffff;
+    font-family: "Quicksand", Helvetica, sans-serif;
+    font-size: 21pt;
+}
+/*<!--  My UX Skills section coded using CSS flex -->*/
+.flexContainer{
+    display: flex;
+    padding:20;
+    margin:0;
+    list-style: none;
+    height: 464px;
+    flex-wrap: wrap;
+}
+
+.about-1{
+    border: 3px #54D0EB;
+    width: 33%;
+    padding: 20px;
+}
+.about-2{
+    flex:auto;
+    width:60%;
+    height: 464px;
+    padding:20px;
+}
+.mySkill{
+    width:30%;
+    flex: auto;
+    min-width: 0;
+    height:531px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+/*hero*/
+.heroImg{
+    width: 100%;
+}
+.content{
+    width: 500px;
+    margin: 0 auto;
+}
+.aboutMe{
+    margin-bottom: 2rem;
+}
+.blankSpace{
+    height: 100px;
+    width: 100%
+}
+.collageImg{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.project{
+    width:30%;
+    flex: auto;
+    min-width: 0;
+    height:464px;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+p.project{
+    font-size:18pt;
+}
+.myWork{
+    margin-bottom: 100px
+}
+/*footer*/
+footer{
+    background-color: #000000;
+    margin: 0 auto;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    margin:0 auto;
+}
+/*flexbox*/
+
+@media only screen and (max-width: 600) {
+}
